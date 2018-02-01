@@ -1,0 +1,11 @@
+用户名,密码,确认密码,电子邮箱,测试场景,截图名,提示信息
+,,,,TestCase 1：输入不完整的用户信息,TC1_RegisterFailAsBlank,信息不完整。
+123451,3123,3123,2312@qq.com,TestCase 2：输入已存在的用户名,TC2_Register_FailAsExisting,用户名或邮箱已被使用。
+123,3123,3123,2312@qq.com,TestCase 3：输入长度不够的用户名,TC3_Register_FailAsLengthError,用户名至少需要5个字符。
+34567891,3123,312233,34567891@qq.com,TestCase 4：输入的两次密码不一致,TC4_Register_FailAsRepwdError,两次密码输入不一致。
+123456,3123,3123,12345623,TestCase 5：输入错误格式的邮箱地址,TC5_Register_FailAsMailFormat,邮箱不合法。
+lilytest2,123451,123451,lilytest2@qq.com,TestCase 6：输入正确的用户信息,TC6_Register_Success,欢迎加入 Nodeclub！我们已给您的注册邮箱发送了一封邮件，请点击里面的链接来激活您的帐号。
+,,,,TestCase 7：输入空的账户信息登录测试,TC7-login-Fail-blank,信息不完整。
+lilytest123,123451,,,TestCase 8：输入错误的账户信息登录测试,TC8-login-Fail-error,用户名或密码错误
+lilytest,123451,,,TestCase 9：输入正确的账户信息登录测试,TC9_login_Success,lilytest
+发帖标题测试01,发帖内容测试02,,,TestCase 9：输入正确的帖子信息测试,TC9_login_Success, - Nodeclub

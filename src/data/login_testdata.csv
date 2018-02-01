@@ -1,0 +1,2 @@
+用户名,密码,测试场景,截图名,提示信息
+lilytest,123451,TestCase 9：输入正确的账户信息登录测试,TC9_login_Success,lilytest
